@@ -1,7 +1,7 @@
 const IntroStripe = () => {
     return (
-        <div id="intro" className="w-full flex py-12 md:px-56 md:py-40 bg-gradient-to-b from-gray-300 to-red-100 text-gray-800 justify-center flex-col space-y-12">
-             <div className="text-3xl tracking-widest mt-4 flex mx-auto md:hidden">
+        <div id="intro" className="w-full flex pb-12 pt-6 md:py-12 md:px-56 md:py-40 bg-gradient-to-b from-gray-300 to-red-100 text-gray-800 justify-center flex-col space-y-12">
+             <div className="text-3xl tracking-widest flex mx-auto md:hidden">
                 <img src="./deniz-logo.png" className="flex h-24" alt="logo"></img>
             </div>
             <div className="flex flex-col md:flex-row items-center space-y-8 md:space-y-0 md:space-x-8">

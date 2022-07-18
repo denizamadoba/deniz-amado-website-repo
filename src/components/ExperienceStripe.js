@@ -11,12 +11,12 @@ const ExperienceStripe = () => {
     const [isOpenInfoera, setIsOpenInfoera] = useState(false);
     const [isOpenBrandeis, setIsOpenBrandeis] = useState(false);
     const MashableContent = <p>
-        I am currently working as a Full-Stack Software Engineer at ZiffMedia, in the Mashable team. I recently worked on the rebuild of <a href="https://mashable.com" class="text-red-400">mashable.com </a> 
+        I am currently working as a Full-Stack Software Engineer at ZiffMedia, in the Mashable team. I recently worked on the rebuild of <a href="https://mashable.com" className="text-red-400">mashable.com </a> 
          and the in-house Content Management System with a new technology stack and design. We migrated the site from Ruby on Rails to a Laravel PHP platform.
         With the new platform, we got rid of tech debt, highly increased the performance of the site, optimized our search engine visibility, made the site ADA compliant, and created a better user experience for both the site users and our CMS editors.
-        <h2 class="italic mt-4">Below are some more projects I worked on at Mashable:</h2>
+        <h2 className="italic mt-4">Below are some more projects I worked on at Mashable:</h2>
 
-        <ul class="list-disc max-w-md mx-auto mt-4">
+        <ul className="list-disc max-w-md mx-auto mt-4">
             <li>Worked on streamlining third party distributions of articles to Google AMP, Apple News and RSS Feeds</li>
             <li>Improved performance on the old Mashable site, by serving WebP images and lazy loading all media</li>
             <li>Developed a new commerce article type which pulls deals from the company’s other sites to automate the deals article process, added interface to retrieve coupon codes on deals articles</li>
@@ -34,9 +34,9 @@ const ExperienceStripe = () => {
     const BrandeisContent = <p>
         I got my Bachelor of Science degree from Brandeis University in 2018. I studied Computer Science and Economics. I took exciting courses on web development, software entrepreneurship, mobile application development and user experience design.
         
-        <div class="px-8 text-left mb-4">
+        <div className="px-8 text-left mb-4">
             <h1>RELEVANT COURSES</h1>						
-            <ul class="list-disc">
+            <ul className="list-disc">
                 <li>Capstone Project for Software Engineering</li>
                 <li>Fundamentals of Web Technology</li>
                 <li>Foundations of Data Science and Analytics</li>
@@ -50,11 +50,11 @@ const ExperienceStripe = () => {
             </ul>
         </div>
       
-        <div class="px-8 mx-auto text-left">
+        <div className="px-8 mx-auto text-left">
             <h1>PROJECTS</h1>
-            <ul class="list-disc">
+            <ul className="list-disc">
                 <li>
-                    <h2 class="underline"> FollowTheMusic - Capstone Project for Software Engineering</h2>
+                    <h2 className="underline"> FollowTheMusic - Capstone Project for Software Engineering</h2>
                     <ul>
                         <li>
                             A tool to help people people schedule and find spontaneous jam sessions happening nearby.
@@ -66,7 +66,7 @@ const ExperienceStripe = () => {
                     </ul>
                 </li>
                 <li>
-                    <h2 class="underline">
+                    <h2 className="underline">
                         PlanIt
                     </h2>
                     <ul>
@@ -76,7 +76,7 @@ const ExperienceStripe = () => {
                     </ul>
                 </li>
                 <li>
-                    <h2 class="underline">
+                    <h2 className="underline">
                     Priority Messenger
                     </h2>
                     <ul>
@@ -106,22 +106,22 @@ const ExperienceStripe = () => {
                         <button className="primaryBtn mx-auto" onClick={() => setIsOpenMashable(true)}>
                             <img src="./Mashable.png" alt="mashable-logo" className="rounded-lg"></img>
                         </button>
-                        <span className="text-center mx-auto mt-2 hidden group-hover:block">MASHABLE</span>
-                        <span className="text-center mx-auto mt-2 hidden group-hover:block">DEC 2018 - NOW</span>
+                        <span className="text-center mx-auto mt-2 md:hidden md:group-hover:block">MASHABLE</span>
+                        <span className="text-center mx-auto mt-2 md:hidden md:group-hover:block">DEC 2018 - NOW</span>
                     </div>
                     <div className="flex flex-col group w-48">
                         <button className="primaryBtn rounded-lg mx-auto" onClick={() => setIsOpenBa(true)}>
                             <img src="./blueapronlogo.png" alt="blueapron-logo" className="rounded-lg"></img>
                         </button>
-                        <span className="text-center mx-auto mt-2 hidden group-hover:block">BLUE APRON</span>
-                        <span className="text-center mx-auto mt-2 hidden group-hover:block">JULY 2018 - DEC 2018</span>
+                        <span className="text-center mx-auto mt-2 md:hidden md:group-hover:block">BLUE APRON</span>
+                        <span className="text-center mx-auto mt-2 md:hidden md:group-hover:block">JULY 2018 - DEC 2018</span>
                     </div>
                     <div className="flex flex-col group w-48">
                         <button className="primaryBtn rounded-lg mx-auto" onClick={() => setIsOpenTeamgram(true)}>
                                 <img src="./teamgram-logo.png" alt="teamgram-logo" className="rounded-lg"></img>
                         </button>
-                        <span className="text-center mx-auto mt-2 hidden group-hover:block">TEAMGRAM AT PHONOCLICK</span>
-                        <span className="text-center mx-auto mt-2 hidden group-hover:block">SUMMER 2016</span>
+                        <span className="text-center mx-auto mt-2 md:hidden md:group-hover:block">TEAMGRAM AT PHONOCLICK</span>
+                        <span className="text-center mx-auto mt-2 md:hidden md:group-hover:block">SUMMER 2016</span>
                     </div>
                     <div className="flex flex-col group">
                         <button className="primaryBtn bg-black rounded-lg w-48" onClick={() => setIsOpenInfoera(true)}>
@@ -129,15 +129,15 @@ const ExperienceStripe = () => {
                                 <img src="./infoera-logo.png" alt="infoera-logo" className="w-28 mx-auto"></img>
                             </div>
                         </button>
-                        <span className="text-center mx-auto mt-2 hidden group-hover:block">INFOERA SOFTWARE</span>
-                        <span className="text-center mx-auto mt-2 hidden group-hover:block">SUMMER 2015</span>
+                        <span className="text-center mx-auto mt-2 md:hidden md:group-hover:block">INFOERA SOFTWARE</span>
+                        <span className="text-center mx-auto mt-2 md:hidden md:group-hover:block">SUMMER 2015</span>
                     </div>
                     <div className="flex flex-col group w-48">
                         <button className="primaryBtn mx-auto" onClick={() => setIsOpenBrandeis(true)}>
                             <img src="./brandeis-logo.png" alt="brandeis-logo" className="rounded-lg"></img>
                         </button>
-                        <span className="text-center mx-auto mt-2 hidden group-hover:block">BRANDEIS UNIVERSITY</span>
-                        <span className="text-center mx-auto mt-2 hidden group-hover:block">2014 - 2018</span>
+                        <span className="text-center mx-auto mt-2 md:hidden md:group-hover:block">BRANDEIS UNIVERSITY</span>
+                        <span className="text-center mx-auto mt-2 md:hidden md:group-hover:block">2014 - 2018</span>
                     </div>
             </div>
 

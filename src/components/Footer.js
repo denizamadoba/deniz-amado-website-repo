@@ -10,11 +10,11 @@ const Footer = () => {
                     <Link to='/#experience'>Experience</Link>
                     <Link to='/#skills'>Skills</Link>
                     <Link to='/#about'>About</Link>
-                    <a href="https://www.linkedin.com/in/denizamado/" class="mx-auto md:mx-0">
-                            <img src="./linkedin.png" class="w-10 h-10 md:w-6 md:h-6" alt="linkedin-logo"></img>
+                    <a href="https://www.linkedin.com/in/denizamado/" className="mx-auto md:mx-0">
+                            <img src="./linkedin.png" className="w-10 h-10 md:w-6 md:h-6" alt="linkedin-logo"></img>
                     </a>
-                    <a href="https://github.com/denizamadoba" class="mx-auto md:mx-0">
-                        <img src="./github.png" class="w-10 h-10 md:w-6 md:h-6" alt="github-logo"></img>
+                    <a href="https://github.com/denizamadoba" className="mx-auto md:mx-0">
+                        <img src="./github.png" className="w-10 h-10 md:w-6 md:h-6" alt="github-logo"></img>
                     </a>
                    
                 </div>

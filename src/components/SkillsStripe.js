@@ -4,10 +4,10 @@ const SkillsStripe = () => {
     return (
         <div id="skills" className="z-0 w-full flex flex-col p-4 bg-gradient-to-b from-gray-300 to-red-100 text-gray-800 tracking-widest">
             {<StripeTitle title="Skills"/>}
-            <div class="flex flex-col md:flex-row w-full md:space-x-8 my-16 justify-center">
-                <div class="pinkShadow flex flex-col bg-white md:w-96 rounded-lg md:px-8 pt-12 pb-16 mt-4 text-center">
-                    <span class="mb-4 underline italic text-xl">Programming Languages</span>
-                    <ul class="space-y-4">
+            <div className="flex flex-col md:flex-row w-full md:space-x-8 my-16 justify-center">
+                <div className="pinkShadow flex flex-col bg-white md:w-96 rounded-lg md:px-8 pt-12 pb-16 mt-4 text-center">
+                    <span className="mb-4 underline italic text-xl">Programming Languages</span>
+                    <ul className="space-y-4">
                        
                         <li>
                             Ruby
@@ -38,9 +38,9 @@ const SkillsStripe = () => {
                         </li>
                     </ul>
                 </div>
-                <div class="pinkShadow flex flex-col bg-white md:w-96 rounded-lg md:px-8 pt-12 pb-4 mt-4 text-center"> 
-                    <span class="mb-4 underline italic text-xl">Frameworks and Tools</span>
-                    <ul class="space-y-4">
+                <div className="pinkShadow flex flex-col bg-white md:w-96 rounded-lg md:px-8 pt-12 pb-4 mt-4 text-center"> 
+                    <span className="mb-4 underline italic text-xl">Frameworks and Tools</span>
+                    <ul className="space-y-4">
                         <li>
                             Ruby on Rails
                         </li>
