@@ -99,9 +99,9 @@ const ExperienceStripe = () => {
         I built and maintained SQL scripts, indexes, and queries for data storage and extraction in LocalDB, SQL Server.
     </p>
     return (
-        <div id="experience" className="w-full flex flex-col px-4 py-8 bg-gradient-to-t from-gray-300 to-red-100 text-white">
+        <div id="experience" className="w-full flex flex-col md:px-4 py-8 bg-gradient-to-t from-gray-300 to-red-100 text-white">
             {<StripeTitle title="Experience"/>}
-            <div className="flex flex-row space-x-8 h-48 justify-center my-16 text-gray-800 tracking-widest">
+            <div className="flex flex-col mx-auto space-y-8 md:space-y-0 md:mx-0 md:flex-row md:space-x-8 md:h-48 justify-center my-16 text-gray-800 tracking-widest">
                     <div className="flex flex-col group w-48">
                         <button className="primaryBtn mx-auto" onClick={() => setIsOpenMashable(true)}>
                             <img src="./Mashable.png" alt="mashable-logo" className="rounded-lg"></img>

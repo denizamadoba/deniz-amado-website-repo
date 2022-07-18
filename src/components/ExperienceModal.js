@@ -12,7 +12,7 @@ const ExperienceModal = ({setIsOpen, title, text}) => {
                         <button className="closeBtn" onClick={() => setIsOpen(false)}>
                             <RiCloseLine style={{ marginBottom: "-3px" }} />
                         </button>
-                        <div className="modalContent px-8">
+                        <div className="modalContent md:px-8">
                             {text}
                         </div>
                     </div>
