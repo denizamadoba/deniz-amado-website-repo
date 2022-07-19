@@ -1,2 +1,1 @@
-# deniz-amado-website-repo
- Personal website
+Website of Deniz Amado built with React.
